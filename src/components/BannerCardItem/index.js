@@ -7,10 +7,12 @@ const BannerCardItem = props => {
   console.log(className)
   return (
     <div className={className}>
-      <div>
+      <div className="cart">
         <h1>{headerText}</h1>
         <p>{description}</p>
-        <button type="button">Show More</button>
+        <button type="button" className="btn">
+          Show More
+        </button>
       </div>
     </div>
   )
